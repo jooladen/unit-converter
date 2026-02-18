@@ -13,7 +13,13 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-8">단위변환기</h1>
       <div className="w-full max-w-xl">
         <Tabs active={category} onChange={setCategory} />
-        <Converter key={category} category={category} />
+        <div
+          role="tabpanel"
+          id={`tabpanel-${category}`}
+          aria-labelledby={`tab-${category}`}
+        >
+          <Converter key={category} category={category} />
+        </div>
       </div>
     </main>
   );

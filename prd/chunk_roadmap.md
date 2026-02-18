@@ -134,28 +134,28 @@ SEO, 접근성, 전체 점검 + 배포 준비
 - Chunk 2 완료 (전체 UI 동작)
 
 ### 상세 작업
-- [ ] SEO 메타 태그 설정 (`src/app/layout.tsx`)
+- [x] SEO 메타 태그 설정 (`src/app/layout.tsx`)
   - title: "단위변환기 — 길이, 무게, 온도 실시간 변환"
   - description: "길이, 무게, 온도를 실시간으로 변환하세요. mm, cm, m, km, kg, lb, ℃, ℉ 등 다양한 단위를 지원합니다."
   - Open Graph 태그
   - viewport 설정
-- [ ] 접근성 점검
+- [x] 접근성 점검
   - input에 적절한 label/aria-label
   - 탭에 role="tablist" / role="tab"
   - 키보드 탐색 가능 확인
-- [ ] 에러 UI 전체 점검
+- [x] 에러 UI 전체 점검
   - 모든 에러 시나리오 재확인 (PRD 8장)
-- [ ] favicon 설정 (Next.js 기본 또는 심플한 아이콘)
-- [ ] README.md 작성
+- [x] favicon 설정 (Next.js 기본 또는 심플한 아이콘)
+- [x] README.md 작성
   - 프로젝트 소개
   - 기술 스택
   - 로컬 실행 방법 (`npm install` → `npm run dev`)
   - 배포 방법 (Vercel 연동)
-- [ ] 전체 빌드 테스트 (`npm run build` 에러 없이 통과)
+- [x] 전체 빌드 테스트 (`npm run build` 에러 없이 통과)
 
 ### 완료조건
-- [ ] `npm run build` 성공
-- [ ] SEO 메타 태그 확인 (페이지 소스에서)
-- [ ] 접근성 기본 요소 확인
-- [ ] README.md 존재 + 내용 충실
-- [ ] Vercel 배포 준비 완료 (빌드 통과 상태)
+- [x] `npm run build` 성공
+- [x] SEO 메타 태그 확인 (페이지 소스에서)
+- [x] 접근성 기본 요소 확인
+- [x] README.md 존재 + 내용 충실
+- [x] Vercel 배포 준비 완료 (빌드 통과 상태)
